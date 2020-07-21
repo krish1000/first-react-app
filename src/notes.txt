@@ -1,0 +1,17 @@
+npm i -g yarn
+npx create-react-app first-react-app // name
+
+cd first-react-app
+yarn add gh-pages //to allowed deployment on gh pages
+
+----Adding code
+in package.json add
+    "homepage": "add the url link here",
+
+    in "scripts":
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d build"
+
+------ cmd line :
+
+yarn run deploy
