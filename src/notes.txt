@@ -15,3 +15,8 @@ in package.json add
 ------ cmd line :
 
 yarn run deploy
+
+
+----------------2020-07-21 adding packages:
+yarn add react-router-dom 
+yarn add react-boostrap bootstrap
